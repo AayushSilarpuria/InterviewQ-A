@@ -4,7 +4,6 @@ Accolite Digital India Private Limited
 Vedika 8309102594
 sriram.r@accolitedigital.com
 
-
 1. If we write tables in models.py then makemigrations then migrate.
 what will happen if we hit the command migrate after deleting the table.
 
