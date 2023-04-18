@@ -2,6 +2,7 @@
 6 april interview
 Accolite Digital India Private Limited
 Vedika 8309102594
+sriram.r@accolitedigital.com
 
 
 1. If we write tables in models.py then makemigrations then migrate.
