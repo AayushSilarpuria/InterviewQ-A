@@ -1,0 +1,25 @@
+Q. which date types can be used as key in the dictionary?
+
+A. In Python, the following data types can be used as keys in a dictionary:
+
+Immutable built-in data types: This includes data types such as integers, floats, booleans, strings, and tuples. The tuples used as keys must also contain only immutable objects.
+
+Custom classes that are hashable: If you create your own custom class and ensure that it is hashable, then instances of the class can be used as keys in a dictionary. To make a class hashable, you need to define the __hash__() method and ensure that instances of the class are immutable.
+
+On the other hand, mutable data types like lists and dictionaries cannot be used as keys in a dictionary because they can be modified after they are created. If you try to use a mutable object as a key in a dictionary, you will get a TypeError.
+
+It's worth noting that while strings and tuples are both immutable and can be used as keys in a dictionary, using tuples as keys can be more flexible because tuples can contain other tuples or other immutable objects, while strings can only contain characters.
+
+
+
+
+
+Q>mylist = [1,2,3,4,4,6,7,7,8,8,0,-1]
+print(mylist[-1:-3])
+
+A>
+The output of print(mylist[-1:-3]) will be an empty list [].
+
+This is because when using slicing in Python, the first index is inclusive, and the second index is exclusive. In this case, -1 refers to the last element of the list, and -3 refers to the third-to-last element of the list. However, the slice mylist[-1:-3] will not include any elements since the starting index (-1) is after the ending index (-3) in the list.
+
+Therefore, the slice mylist[-1:-3] does not contain any elements, resulting in an empty list as the output. 
