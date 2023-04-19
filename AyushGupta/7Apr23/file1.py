@@ -1,6 +1,4 @@
 # Wangoes Technologies Pvt. Ltd.
-# +91-​7869312408 Arpit sharma
-# hr@wangoes.com
 
 # Project
 # decorator in python
