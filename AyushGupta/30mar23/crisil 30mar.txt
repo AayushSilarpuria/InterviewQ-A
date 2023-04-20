@@ -1,0 +1,22 @@
+CRISIL interview 30 mar 2:30pm
+
+    1. reverse the string Hello world
+    2. convert JSON into pandas dataframe 
+    3. class and object
+    4. multiprocessing and multithreading
+    5. Local variable vs Global variable 
+    6. decorators 
+    7. inheritance  
+    8. list vs tuple 
+    9. python data types 
+    10. if __name__== "__main__":
+    11. clone vs fork in Github
+    12. Django project deploy
+    13. docker 
+    14. data parsing
+    15. selenium and beautiful soap, webscrapping
+    16. tokenization in Natural language processing
+    17. NLTK Library
+    18. TF-IDF in NLP
+    19. OpenAI backend process 
+    20. GPT 
