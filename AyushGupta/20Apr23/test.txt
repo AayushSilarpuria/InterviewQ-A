@@ -1,0 +1,54 @@
+Gmware 
+
+
+Question 1: 
+single-digit "Reduced Subtracted Form": 
+Given a number, you are expected to ﬁnd its single-digit "Reduced Subtracted Form (RSF)". 
+
+The "Reduced Subtracted Form (RSF)" of a number can be found by concatenating the difference between its adjacent digits. To ﬁnd the single-digit "Reduced Subtracted Form (RSF)", we need to continue this process till the resultant RSF is not a single digit. 
+
+Explanation: 
+Input: 6928 → output should be 3. 5271 → output should be 1. 
+
+RSF of 5271 (5-2) (2-7) (7-1) = 356 RSF of 356 (3-5) (5-6)=21 
+RSF of 21 (2-1)=1 
+
+Note1: input1 will always be >= 10 
+
+Note2: Note that while concatenating the differences, we are expected to use the absolute values (non-negative) 
+
+ 
+
+ 
+
+Question 2: 
+Given a list of integers nums, write a function to ﬁnd the median of nums. The median of a list of integers is the middle value when the list is sorted, or the average of the two middle values if the list has an even number of elements. 
+
+For example, the median of the list [3, 5, 2, 1, 4] is 3, the median of the list [3, 5, 2, 1, 4, 6] is (3 + 4) / 2 
+
+= 3.5 
+
+ 
+
+Question3:
+Given a list of strings words, write a function to ﬁnd the longest string that can be formed by concatenating two or more strings from words in any order. 
+
+  
+For example, if words is ["dog", "cat", "car", "race"], the function should return "racetraceracecar", since "racetraceracecar" can be formed by concatenating "race", "car", and "race" in any order. 
+
+  
+Then ﬁndout the concatenating is palindrome or not if Yes return 1 else return 0 
+
+ 
+ 
+ Question 4: 
+Given a list of integers nums and an integer k, write a function to determine whether there exists a contiguous subarray of nums with a sum of k. 
+
+For example, 
+
+if nums is [1, 2, 3, 4] and k is 6, the function should return true, since the subarray [2, 3] has a sum of 
+
+6. 
+If nums is [1, 2, 3, 4] and k is 9, the function should return false, since there is no contiguous 
+
+subarray of nums with a sum of 9. 
