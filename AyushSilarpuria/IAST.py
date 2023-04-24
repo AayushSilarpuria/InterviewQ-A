@@ -1,19 +1,6 @@
 # Q.1: Sort the array without using sort method.
 arr1 = [2, 1, 5, 7, 3, 4]
-def sort(arr):
-    new_arr = []
-    for i in arr:
-        #while i not in new_arr:
-        if i not in new_arr:
-            
-            new_arr.append()
-        elif 
-
-
-
-
-
-
+# This method also called Bubble sort:
 # define a function to perform the sorting
 def sort_arr(arr):
     # iterate through the list and compare adjacent elements
@@ -29,8 +16,6 @@ def sort_arr(arr):
 # call the function and print the sorted list
 sorted_arr = sort_arr(arr1)
 print(sorted_arr)
-
-
 
 
 
