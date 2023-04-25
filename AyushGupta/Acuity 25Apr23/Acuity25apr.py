@@ -3,7 +3,7 @@
 # 1. Write fibonacci series using generator upto 10 numbers. 
 # 2. Write a function calculate, which given a string like "4+1*1+1"
     # return the result of the formula in the string 
-# 3. Write multiple decorator a any specific function.
+# 3. Write multiple decorator in a chain for any specific function.
 # 4. Write union and intersection of set1 and set2.
 # 6. Write dictionary comprehension. 
 # 7. How do you process json 
