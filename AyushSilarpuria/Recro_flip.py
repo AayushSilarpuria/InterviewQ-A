@@ -1,19 +1,16 @@
 # Q.1: Count number of Duplicate item and write it as output.
 word = "aeroplane"
 
-new_word = word.split()
+dup_word = []
 
-w_count = {}
+for i in word:
+    if word.count(i) > 1:
+        count = word.count(i)
+        if i not in dup_word:
+            dup_word.append(i)
+print(f"{i}: {count}")
+print(dup_word)
 
-for i in new_word:
-    if i in w_count:
-        w_count[i] += 1
-    else:
-        w_count = 1
-
-for i, count in w_count.items():
-    if count > 1:
-        print(f"{i}: count")
 
 # Q.2: Write SQL Queries:
 
