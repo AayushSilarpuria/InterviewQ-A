@@ -34,15 +34,13 @@ input :  AAAAERCCEETTTAA
 output:  A4E1R1C2E2T3A2
 """
 # 5. output
-t = (2,3)
+t = (2, 3)
 t = t*2
-print(t)   #(2, 3, 2, 3)
-
-
+print(t)  # (2, 3, 2, 3)
 
 
 """
-Answer of Q2: How does Middleware work? 🤔
+Answer of Q2: How does Middleware work?
 When a user makes a request from your application, a WSGI handler is instantiated, which handles the following things:
 
 Imports project's settings.py file and Django exception classes.
