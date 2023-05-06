@@ -20,10 +20,9 @@ Result = {"Apple": 68, "Banana": 16, "Papaya": 90,
 
 # Q6.
 # what is the output of the program:
-
-
 def multiplexers():
     return [lambda n: index * n for index in range(4)]
 
-
 print([m(2) for m in multiplexers()])
+
+# Q7. Django ORM Query.
