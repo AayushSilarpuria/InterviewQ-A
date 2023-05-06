@@ -1,4 +1,4 @@
-# Write a class student with attributes as name and id:
+# Q.1: Write a class student with attributes as name and id:
 class Students:
      
     def __init__(self,name,id):
@@ -15,10 +15,11 @@ d.stud()
 
 
 
-# Write code to open Excel file then read it:
+# Q.2: Write code to open Excel file then read it:
 
 with open("file1.xlsx", mode='r') as pd:
     print(pd.read())
 
 with open("file.xlsx", mode='w') as pd:
     pd.write("Hello World!")
+    
