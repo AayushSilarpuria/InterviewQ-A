@@ -1,0 +1,74 @@
+# Progressive infotech
+# 04may23 Telephonic Round
+
+1. What is PEP 8 and why is it important?
+PEP stands for Python Enhancement Proposal. PEP 8 is especially important since it
+documents the style guidelines for Python Code. Apparently contributing to the
+Python open-source community requires you to follow these style guidelines sincerely
+and strictly.
+
+
+2. What is the use of self in Python?
+Self is used to represent the instance of the class. With this keyword, you can access
+the attributes and methods of the class in python. It binds the attributes with the given
+arguments.
+
+
+3. What __init__ is a contractor method in Python and is automatically called to allocate
+memory when a new object/instance is created. All classes have a __init__ method
+associated with them. It helps in distinguishing methods and attributes of a class from
+local variables.
+
+
+4. Explain how can you make a Python Script executable on Unix?
+Script file must begin with #!/usr/bin/env python
+
+
+5. What is the difference between xrange and range in Python?
+xrange() and range() are quite similar in terms of functionality. They both generate a
+sequence of integers, with the only difference that range() returns a Python list,
+whereas, xrange() returns an xrange object.
+
+
+6. What is pickling and unpickling?
+Python library offers a feature serialization out of the box.
+Serializing an object refers to transforming an python object 
+into a byte stream format which can be stored, so as to be able to deserialize it.
+function used are: pickle.dump()
+Unpickling is the complete inverse of pickling. It deserializes the byte stream to
+recreate the objects stored in the file and loads the object to memory.
+pickle.load()
+
+
+7. What is is PYTHONPATH in Python?
+PYTHONPATH is an environment variable which you can set to add additional
+directories where Python will look for modules and packages. This is especially useful
+in maintaining Python libraries that you do not wish to install in the global default location.
+
+
+8. What is the difference between .py and .pyc files?
+.py files contain the source code of a program. Whereas, .pyc file contains the
+bytecode of your program. We get bytecode after compilation of .py file (sourcecode)
+.pyc files are not created for all the files that you run. It is only created for
+the files that you import.
+Before executing a python program python interpreter checks for the compiled
+files. If the file is present, the virtual machine executes it. If not found, it checks
+for .py file. If found, compiles it to .pyc file and then python virtual machine
+executes it.
+Having .pyc file saves you the compilation time.
+
+
+9. Differentiate between deep and shallow copies.
+• Shallow copy does the task of creating new objects storing references of original
+elements. This does not undergo recursion to create copies of nested objects. It
+just copies the reference details of nested objects.
+• Deep copy creates an independent and new copy of an object and even copies all
+the nested objects of the original element recursively
+
+
+10. What is GIL?
+GIL stands for Global Interpreter Lock. It is used for limiting access to python objects and
+aids in avoiding deadlocks. GIL helps in achieving multitasking (and not parallel computing).
+
+
+11. Expalin Python memeory management.
