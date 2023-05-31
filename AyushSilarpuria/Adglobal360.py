@@ -22,3 +22,16 @@ print(d)
 # Q.3: How to change datatype from perticular column of table.
 # Q.4: What is list comprehension.
 
+# Q.5: Write a progrma for Generator and Explain Generator.
+def sqr(n):
+    for i in range(1,n+1):
+        yield i*i
+
+a = sqr(3)
+print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+
+# It only iterate 3 times if range is small then asking next output for rest of next it through error.
