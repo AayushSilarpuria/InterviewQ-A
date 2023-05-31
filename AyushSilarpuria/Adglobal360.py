@@ -15,3 +15,5 @@ print(count_item(a))
 
 # Q.2: Find the 2nd highest Salary from Employed Table.
 # Q.3: How to change datatype from perticular column of table.
+# Q.4: What is list comprehension.
+
