@@ -19,7 +19,17 @@ print(count_item(a))
 d = {i: a.count(i) for i in a}
 print(d)
 # Q.2: Find the 2nd highest Salary from Employed Table.
+
+    # select emp_name, max(salary)
+    # from employees
+    # where salary < max(select salary
+    #                     from employees
+    #                     )
+
 # Q.3: How to change datatype from perticular column of table.
+
+    # By using Alter and modify command.
+
 # Q.4: What is list comprehension.
 
 # Q.5: Write a progrma for Generator and Explain Generator.
