@@ -12,3 +12,5 @@ print(Result)
 
 """you can iterate through the my_purchase dictionary, multiply the corresponding values 
     with the prices from the price dictionary and store the result in a new dictionary Result."""
+
+
